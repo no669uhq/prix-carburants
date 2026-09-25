@@ -1,6 +1,6 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Archives · Plein Malin</title>
-<meta name="description" content="Archives des points quotidiens sur les prix des carburants."><link rel="canonical" href="https://no669uhq.github.io/prix-carburants/jour/"><style>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Connexion TikTok · Plein Malin</title>
+<meta name="description" content="Connexion TikTok"><link rel="canonical" href="https://no669uhq.github.io/prix-carburants/tiktok/callback.html"><style>
 :root{--bg:#fbfaf7;--fg:#1d1d1b;--mut:#6b6a66;--line:#e4e1da;--acc:#0b6e4f;--card:#fff;--up:#b3261e;--down:#0b6e4f}
 @media (prefers-color-scheme:dark){:root{--bg:#141413;--fg:#ecebe6;--mut:#a09e97;--line:#2c2b28;--acc:#5fd3a5;--card:#1c1c1a;--up:#f28b82;--down:#5fd3a5}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
@@ -16,7 +16,19 @@ th{font-weight:600;color:var(--mut);font-size:.85rem}td.n{text-align:right;white
 .scroll{overflow-x:auto}
 </style></head>
 <body><header><a href="https://no669uhq.github.io/prix-carburants/" style="text-decoration:none;font-weight:700">Plein Malin</a>
-<span class="mut"> · mis à jour le 25 septembre 2026</span></header><main><h1>Archives</h1><ul><li><a href='https://no669uhq.github.io/prix-carburants/jour/2026-09-25.html'>25 septembre 2026</a></li></ul></main>
+<span class="mut"> · mis à jour le 25 septembre 2026</span></header><main>
+<h1>Connexion TikTok</h1>
+<p id="msg" class="mut">Traitement…</p>
+<p><code id="code" style="word-break:break-all"></code></p>
+<script>
+const p = new URLSearchParams(location.search);
+const m = document.getElementById('msg');
+if (p.get('error')) { m.textContent = 'Autorisation refusée : ' + p.get('error'); }
+else if (p.get('code')) { m.textContent = "Autorisation reçue. Copiez ce code dans l'outil de publication :";
+  document.getElementById('code').textContent = p.get('code'); }
+else { m.textContent = 'Aucun code reçu.'; }
+</script>
+</main>
 <footer>Synthèses rédigées automatiquement par IA à partir des données officielles, chiffres vérifiés automatiquement.<br>Données : <a href="https://data.economie.gouv.fr/explore/dataset/prix-des-carburants-en-france-flux-instantane-v2/">Prix des carburants en France, flux instantané</a>, ministère de l'Économie,
 Licence Ouverte Etalab 2.0. Seuls les prix mis à jour depuis moins de 3 jours sont retenus.
 <a href="https://no669uhq.github.io/prix-carburants/mentions.html">Méthode</a> · <a href="https://no669uhq.github.io/prix-carburants/conditions.html">Conditions</a> ·
